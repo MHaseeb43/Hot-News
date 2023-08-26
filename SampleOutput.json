@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "totalResults": 4,
+  "articles": [
+    {
+      "source": { "id": "next-big-future", "name": "Next Big Future" },
+      "author": "Brian Wang",
+      "title": "Reports that Ning Chen Professor at Beijing University is Releasing Support for LK99 Superconductivity | NextBigFuture.com",
+      "description": "Professor Chen at the Beijing University of Science and Technology has a statistical theory of superconductors. Currently, no existing theory can provide a",
+      "url": "https://www.nextbigfuture.com/2023/08/reports-that-ning-chen-professor-at-beijing-university-is-releasing-support-for-lk99-superconductivity.html",
+      "urlToImage": "https://nextbigfuture.s3.amazonaws.com/uploads/2023/08/LK99chinatheory.jpeg",
+      "publishedAt": "2023-08-18T20:53:37Z",
+      "content": "Professor Chen at the Beijing University of Science and Technology has a statistical theory of superconductors. Currently, no existing theory can provide a clear answer to the various phenomena of LK… [+1949 chars]"
+    },
+    {
+      "source": { "id": "techcrunch", "name": "TechCrunch" },
+      "author": "Lorenzo Franceschi-Bicchierai",
+      "title": "Cellebrite asks cops to keep its phone hacking tech ‘hush hush’ | TechCrunch",
+      "description": "For years, cops and other government authorities all over the world have been using phone hacking technology provided by Cellebrite to unlock phones and In a leaked video, a Cellebrite employee urges law enforcement customers to keep their use of its phone ha…",
+      "url": "https://techcrunch.com/2023/08/19/cellebrite-asks-cops-to-keep-its-phone-hacking-tech-hush-hush/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/08/cellebrite.jpg?resize=1200,800",
+      "publishedAt": "2023-08-18T16:36:27Z",
+      "content": "For years, cops and other government authorities all over the world have been using phone hacking technology provided by Cellebrite to unlock phones and obtain the data within. And the company has be… [+9905 chars]"
+    },
+    {
+      "source": { "id": "recode", "name": "Recode" },
+      "author": "Peter Kafka",
+      "title": "Black Mirror creator Charlie Brooker on AI, tech, and creativity",
+      "description": "An interview with Black Mirror creator Charlie Brooker about his relationship with Silicon Valley, consumer technology, and his fears about AI-written television.",
+      "url": "https://www.vox.com/technology/2023/8/4/23819299/black-mirror-charlie-brooker-interview-ai-peter-kafka-media-column",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/wxfR8oXT4g1BFUqLfjUERqQRoWw=/165x0:3819x1913/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24828765/Black_Mirror_n_S6_E1_00_34_36_03_copy.png",
+      "publishedAt": "2023-08-04T11:30:00Z",
+      "content": "Its tough to remember, but in 2011, lots of us felt pretty good about our Silicon Valley overlords. The iPhone was going fully mainstream, Facebook felt like a fun place to share ideas, and Twitter w… [+15553 chars]"
+    },
+    {
+      "source": { "id": "newsweek", "name": "Newsweek" },
+      "author": "Mark Davis",
+      "title": "Newsweek",
+      "description": "Newsweek provides in-depth analysis, news and opinion about international issues, technology, business, culture and politics.",
+      "url": "https://www.newsweek.com/",
+      "urlToImage": "https://d.newsweek.com/en/full/2202468/special-presidential-envoy-climate-john-kerry.jpg",
+      "publishedAt": "2023-03-01T12:07:28.8517009Z",
+      "content": null
+    }
+  ]
+}
