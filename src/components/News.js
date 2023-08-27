@@ -20,6 +20,7 @@ export default class News extends Component {
     }
 
     async handle() {
+        this.props.setProgress(0);
         const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=7d9c470d0a8e4c4b80cce67ad574efe2&page=${this.state.page}&pageSize=${this.props.pageSize}`;
         this.setState({ loading: true });
         let data = await fetch(url);
@@ -29,6 +30,8 @@ export default class News extends Component {
             totalResults: parsedData.totalResults,
             loading: false
         });
+        this.props.setProgress(100);
+
     }
 
     async componentDidMount() {
@@ -62,8 +65,6 @@ export default class News extends Component {
                 <div className="text-center" style={{ margin: '23px 0px' }}>
                     <h2>Hot News - {this.Capitalize(this.props.category)} TopHeadlines </h2>
                 </div>
-                {/* {this.state.loading && <Spinner />} */}
-
                 <InfiniteScroll
                     dataLength={this.state.articles.length}
                     next={this.fetchMoreData}
@@ -75,11 +76,10 @@ export default class News extends Component {
                             {this.state.articles.map((element) => {
                                 return (
                                     <div className="col-md-4" key={element.url}>
-
                                         <NewItem
                                             title={element.title ? element.title : ""}
                                             description={element.description ? element.description : ""}
-                                            imageUrl={element.urlToImage ? element.urlToImage : "https://c.ndtvimg.com/2023-08/1lcojs6_pak-cable_625x300_22_August_23.jpg"}
+                                            imageUrl={element.urlToImage ? element.urlToImage : "https://www.cartoq.com/wp-content/uploads/2023/04/Tata-Nexon-Facelift.jpg"}
                                             Newsurl={element.url}
                                             date={element.publishedAt}
                                             author={element.author}
